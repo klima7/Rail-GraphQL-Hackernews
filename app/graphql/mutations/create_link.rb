@@ -1,6 +1,5 @@
 module Mutations
-  class CreateLink < GraphQL::Schema::Mutation
-    null false
+  class CreateLink < BaseMutation
     argument :description, String, required: true
     argument :url, String, required: true
 

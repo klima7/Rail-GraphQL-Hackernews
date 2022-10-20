@@ -1,5 +1,5 @@
 module Mutations
-  class DestroyLink < GraphQL::Schema::Mutation
+  class DestroyLink < BaseMutation
     null false
     argument :id, Integer, required: true
 

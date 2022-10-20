@@ -1,5 +1,5 @@
 module Mutations
-  class UpdateLink < GraphQL::Schema::Mutation
+  class UpdateLink < BaseMutation
     null false
     argument :id, Integer, required: true
     argument :description, String, required: false
