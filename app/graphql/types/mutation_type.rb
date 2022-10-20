@@ -5,5 +5,6 @@ module Types
     field :update_link, mutation: Mutations::UpdateLink
     field :create_user, mutation: Mutations::CreateUser
     field :sign_user, mutation: Mutations::SignInUser
+    field :create_vote, mutation: Mutations::CreateVote
   end
 end
